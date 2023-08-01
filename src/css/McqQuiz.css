@@ -1,0 +1,108 @@
+.box{
+    width: 400px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 8px 12px 8px rgba(0, 0, 0, 0.3);
+}
+.answerButton{
+    display: flex;
+    padding: 10px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border-radius: 5px;
+    width: 100%;
+}
+.answerButton:hover{
+    background-color:#c7f1dc;
+}
+.selected{
+    background-color: #08fc14;
+}
+.selected:hover{
+    background-color: #08fc14;
+}
+.pre_next_buttons{
+    display: flex;
+    justify-content: flex-end;
+}
+.next_button{
+    background-color: #0095ff;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.15385;
+    margin: 0;
+    outline: none;
+    padding: 8px .8em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    white-space: nowrap;
+}
+.next_button:hover,
+.next_button:focus {
+  background-color: #07c;
+}
+
+.next_button:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.next_button:active {
+  background-color: #0064bd;
+  box-shadow: none;
+}
+
+.pre_button{
+    background-color: #08fc14;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.15385;
+    margin: 0;
+    outline: none;
+    padding: 8px .8em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    white-space: nowrap;
+    margin-right: 10px;
+}
+
+
+.pre_button:hover,
+.pre_button:focus {
+  background-color: #15f520;
+}
+
+.pre_button:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.pre_button:active {
+  background-color: #15f520;
+  box-shadow: none;
+}
