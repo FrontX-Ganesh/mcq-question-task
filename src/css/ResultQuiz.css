@@ -1,0 +1,28 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+.total_marks{
+    text-align: center;
+}
+.success_msg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    margin-top: 10px;
+    background-color: #58eb58;
+    border-radius: 10px;
+    border: 1px solid #039203;
+}
+.fail_msg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    margin-top: 10px;
+    background-color: #e38679;
+    border-radius: 10px;
+    border: 1px solid #6f1e13;
+}

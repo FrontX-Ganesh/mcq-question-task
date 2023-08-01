@@ -8,6 +8,7 @@ const QuestionsData = [
             { answerText: 'C. JavaScript Object Normalization', isCorrect: false}, 
             { answerText: 'D. JavaScript Object-Oriented Notation', isCorrect: false}
         ],
+        answerNumber : 1
         
     },
     {
@@ -19,7 +20,7 @@ const QuestionsData = [
             { answerText: 'C. JavaScript', isCorrect: false}, 
             { answerText: 'D. php format', isCorrect: false}
         ],
-        
+        answerNumber : 2
     },
     {
         id: 3,
@@ -30,7 +31,7 @@ const QuestionsData = [
             { answerText: 'C. HTML', isCorrect: false}, 
             { answerText: 'D. JavaScript', isCorrect: true}
         ],
-        
+        answerNumber : 4
     },
     {
         id: 4,
@@ -41,7 +42,7 @@ const QuestionsData = [
             { answerText: 'C. Douglas Crockford', isCorrect: true}, 
             { answerText: 'D. Jesse James Garrett', isCorrect: false}
         ],
-        
+        answerNumber : 3
     },
     {
         id: 5,
@@ -52,7 +53,7 @@ const QuestionsData = [
             { answerText: 'C. Commas', isCorrect: true}, 
             { answerText: 'D. Hyper', isCorrect: false}
         ],
-        
+        answerNumber : 3
     },
     {
         id: 6,
@@ -63,7 +64,7 @@ const QuestionsData = [
             { answerText: 'C. Paratheses', isCorrect: false}, 
             { answerText: 'D. None of the above', isCorrect: false}
         ],
-        
+        answerNumber : 1
     },
     {
         id: 7,
@@ -74,7 +75,7 @@ const QuestionsData = [
             { answerText: 'C. <!-- … -->', isCorrect: false}, 
             { answerText: 'D. JSON does not support the comments', isCorrect: true}
         ],
-        
+        answerNumber : 4
     },
     {
         id: 8,
@@ -85,7 +86,7 @@ const QuestionsData = [
             { answerText: 'C. datatype/variable', isCorrect: false}, 
             { answerText: 'D. value/=', isCorrect: false}
         ],
-        
+        answerNumber : 2
     },
     {
         id: 9,
@@ -96,7 +97,7 @@ const QuestionsData = [
             { answerText: 'C. .json', isCorrect: true}, 
             { answerText: 'D. jso', isCorrect: false}
         ],
-        
+        answerNumber : 3
     },
     {
         id: 10,
@@ -107,7 +108,7 @@ const QuestionsData = [
             { answerText: 'C. array', isCorrect: false}, 
             { answerText: 'D. date', isCorrect: false}
         ],
-        
+        answerNumber : 1
     }
 ];
 
